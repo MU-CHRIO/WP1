@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events — Smart Campus Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container container-narrow">
+        <a class="navbar-brand" href="index.html">SmartCampus</a>
+      </div>
+    </nav>
+
+    <main class="py-4">
+      <div class="container container-narrow">
+        <div class="row">
+          <div class="col-lg-8">
+            <h3>Event Calendar</h3>
+            <div id="calendar-grid" class="calendar mt-3 mb-3"></div>
+          </div>
+          <div class="col-lg-4">
+            <h5>Upcoming Events</h5>
+            <ul class="list-group mt-2" id="upcoming-events">
+              <!-- populated by events.js -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Event Modal -->
+    <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="eventModalLabel">Event Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="eventModalBody">Loading...</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container container-narrow text-center">
+        <small class="muted">Events calendar demo</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/events.js"></script>
+  </body>
+</html>

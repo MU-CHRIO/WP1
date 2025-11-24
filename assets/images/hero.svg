@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#eef5ff" />
+  <g fill="#2C7BE5" font-family="Arial, Helvetica, sans-serif">
+    <text x="50%" y="45%" font-size="28" text-anchor="middle">Smart Campus Portal</text>
+    <text x="50%" y="60%" font-size="14" text-anchor="middle" fill="#2b3b4a">Frontend Prototype — Hero Image</text>
+  </g>
+</svg>
