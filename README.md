@@ -1,10 +1,8 @@
 # Smart Campus Portal — Frontend Prototype
 
 ## Group Members:
-- Member 1
-- Member 2
-- Member 3
-- Member 4
+- Muhammad Umer
+- Subhan Faisal
 
 ## Project Overview
 A multi-module Smart Campus Portal frontend prototype built using HTML5, CSS3, Bootstrap 5 and vanilla JavaScript. This prototype demonstrates UI flows for login, announcements, attendance, events, clubs and contact/support.
@@ -13,14 +11,14 @@ A multi-module Smart Campus Portal frontend prototype built using HTML5, CSS3, B
 
 | Module/Page Name | Purpose/Functionality | Responsible Member |
 |------------------|----------------------|--------------------|
-| Home Page | Overview of portal with quick access sections | Member 1 |
-| Student/Faculty Login | Authentication UI, validation, role selection | Member 2 |
-| Announcements | Display campus notices, search, filter | Member 1 |
-| Attendance Tracker | Attendance dashboard, charts, dynamic display | Member 3 |
-| Event Calendar | Calendar UI, upcoming events, modals | Member 2 |
-| Club Management | List of clubs, join requests, pop-ups | Member 4 |
-| Contact/Support | Form with JS validation | Member 3 |
-| About Page | Project description | Member 1 |
+| Home Page | Overview of portal with quick access sections | Subhan Faisal |
+| Student/Faculty Login | Authentication UI, validation, role selection | Muhammad Umer |
+| Announcements | Display campus notices, search, filter | Subhan Faisal |
+| Attendance Tracker | Attendance dashboard, charts, dynamic display | Muhammad Umer |
+| Event Calendar | Calendar UI, upcoming events, modals | Muhammad Umer |
+| Club Management | List of clubs, join requests, pop-ups | Subhan Faisal |
+| Contact/Support | Form with JS validation | Muhammad Umer |
+| About Page | Project description | Muhammad Umer |
 
 Feel free to add more modules or expand responsibilities.
 
