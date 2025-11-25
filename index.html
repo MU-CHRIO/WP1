@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Campus Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container container-narrow">
+        <a class="navbar-brand" href="index.html">SmartCampus</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="announcements.html">Announcements</a></li>
+            <li class="nav-item"><a class="nav-link" href="attendance.html">Attendance</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="clubs.html">Clubs</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-outline-primary ms-2" href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="container container-narrow">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <h1 class="display-5">Welcome to Smart Campus Portal</h1>
+            <p class="lead">One place for announcements, attendance, events, and student clubs. Built as a responsive frontend prototype.</p>
+            <p>
+              <a href="announcements.html" class="btn btn-primary me-2">View Announcements</a>
+              <a href="events.html" class="btn btn-outline-primary">Upcoming Events</a>
+            </p>
+          </div>
+          <div class="col-lg-5 text-center mt-4 mt-lg-0">
+            <img src="assets/images/placeholder-hero.svg" alt="hero" class="img-fluid" style="max-height:220px">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quick Links -->
+    <section>
+      <div class="container container-narrow">
+        <h3 class="section-title">Quick Links</h3>
+        <div class="row quick-links">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card p-3 h-100" onclick="location.href='announcements.html'">
+              <div class="card-body text-center">
+                <h5>Announcements</h5>
+                <p class="muted">Latest campus notices</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card p-3 h-100" onclick="location.href='attendance.html'">
+              <div class="card-body text-center">
+                <h5>Attendance</h5>
+                <p class="muted">Track your attendance</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card p-3 h-100" onclick="location.href='events.html'">
+              <div class="card-body text-center">
+                <h5>Events</h5>
+                <p class="muted">Calendar & details</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card p-3 h-100" onclick="location.href='clubs.html'">
+              <div class="card-body text-center">
+                <h5>Clubs</h5>
+                <p class="muted">Join student clubs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section>
+      <div class="container container-narrow">
+        <h3 class="section-title">Portal Features</h3>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card p-3 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Real-time Notices</h5>
+                <p class="card-text">Stay updated with campus announcements.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card p-3 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Attendance Dashboard</h5>
+                <p class="card-text">Visual attendance progress per course.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card p-3 h-100">
+              <div class="card-body">
+                <h5 class="card-title">Clubs & Events</h5>
+                <p class="card-text">Engage in campus life with clubs and events.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container container-narrow d-flex justify-content-between align-items-center">
+        <small>&copy; 2025 Smart Campus Portal Prototype</small>
+        <div>
+          <a href="about.html" class="muted me-3">About</a>
+          <a href="contact.html" class="muted">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
